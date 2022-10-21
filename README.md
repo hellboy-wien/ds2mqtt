@@ -13,7 +13,7 @@ sudo apt-get install python3-w1thermsensor
 Then install ds2mqtt:
 
 ```
-sudo git clone https://github.com/mplinuxgeek/ds2mqtt /opt/ds2mqtt
+sudo git clone https://github.com/hellboy-wien/ds2mqtt /opt/ds2mqtt
 sudo chown -R pi:pi /opt/ds2mqtt
 cd /opt/ds2mqtt/
 cp config.ini.example config.ini
